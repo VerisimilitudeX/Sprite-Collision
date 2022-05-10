@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-TECHNIQUE 3: Sprite Walls
-DEMO 1
-"""
 import pygame
 import tsk
 pygame.init()
@@ -20,7 +15,6 @@ while drawing:
         if event.type == pygame.QUIT:
             drawing = False
 
-    # old_center is the position the ball was in on the previous frame
     old_center = ball.center
     x, y = pygame.mouse.get_pos()
     
