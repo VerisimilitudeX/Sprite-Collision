@@ -1,7 +1,3 @@
-"""
-LESSON: 5.4 - Sprites in Lists
-WARMUP 1
-"""
 import pygame
 import tsk
 pygame.init()
@@ -19,7 +15,6 @@ while drawing:
         if event.type == pygame.QUIT:
             drawing = False
 
-        # Check for mouse down and reset puffin here
         elif event.type == pygame.MOUSEBUTTONDOWN:
             mouse_x, mouse_y = pygame.mouse.get_pos()
             if puffin.rect.collidepoint(mouse_x, mouse_y):
