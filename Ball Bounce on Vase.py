@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-WARMUP 2
-"""
-
 import pygame
 import tsk
 pygame.init()
@@ -25,11 +20,9 @@ while drawing:
         if event.type == pygame.QUIT:
             drawing = False
 
-    # Move ball here
     ball.center_x += ball_x_speed * c.get_time()
     ball.center_y += ball_y_speed * c.get_time()
 
-    # Collision with vases here
     if pygame.sprite.collide_rect(ball, vase1):
         ball_y_speed = -0.18
     
