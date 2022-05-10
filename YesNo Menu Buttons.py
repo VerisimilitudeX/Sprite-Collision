@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-TECHNIQUE 2: Button
-PRACTICE 2
-"""
 import pygame
 import tsk
 pygame.init()
@@ -26,11 +21,6 @@ while drawing:
             if no_button.rect.collidepoint(x, y):
                 print("No!")
 
-
-
-
-
-
     window.fill((0, 0, 0))
     background.draw()
     yes_button.draw()
@@ -38,6 +28,3 @@ while drawing:
 
     pygame.display.flip()
     c.tick(30)
-
-
-# Turn in your Coding Exercise.
