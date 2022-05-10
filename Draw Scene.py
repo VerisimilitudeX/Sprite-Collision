@@ -1,9 +1,3 @@
-"""
-LESSON: 5.4 - Sprites in Lists
-TECHNIQUE 1: Draw Scene
-DEMO 1
-"""
-
 import pygame
 import tsk
 pygame.init()
