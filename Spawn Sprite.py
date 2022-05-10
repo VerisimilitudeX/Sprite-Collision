@@ -1,8 +1,3 @@
-"""
-LESSON: 5.4 - Sprites in Lists
-TECHNIQUE 3: Spawn Sprite
-DEMO 1
-"""
 import pygame
 import tsk
 pygame.init()
