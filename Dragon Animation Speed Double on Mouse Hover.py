@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-WARMUP 3
-"""
-
 import pygame
 import tsk
 pygame.init()
@@ -20,9 +15,7 @@ while drawing:
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            drawing = False
 
-    # Check for mouse collision
     x, y = pygame.mouse.get_pos()
     if dragon.rect.collidepoint(x, y):
         dragon.image_animation_rate = 60
