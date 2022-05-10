@@ -1,11 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-EXERCISE: Code Your Own
-
-TITLE: [Your Title Here]
-DESCRIPTION: [Your Description Here]
-"""
-
 import pygame
 
 import tsk
@@ -52,19 +44,11 @@ while drawing:
 
             drawing = False
 
- 
-
-    # Check for collision
-
     if pygame.sprite.collide_rect(ball1, ball2):
 
         h_speed_1 = random.randint(1, 5) * .3
 
         h_speed_2 = random.randint(1, 5) * .3
-
- 
-
-    # Move the balls
 
     ball1.center_x += h_speed_1 * c.get_time()
 
@@ -74,9 +58,6 @@ while drawing:
 
     ball2.center_y += v_speed_2 * c.get_time()
 
- 
-
-    # Bounce on edges
 
     if ball1.center_x < 0 or ball1.center_x > 1018:
 
@@ -96,9 +77,6 @@ while drawing:
 
         v_speed_2 *= -1
 
- 
-
-    # Draw
 
     background.draw()
 
