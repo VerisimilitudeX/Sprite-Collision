@@ -1,24 +1,11 @@
-"""
-code3
-
-Description:
-"""
-
 import pygame
-
 import tsk
-
 import random
-
 pygame.init()
 
- 
 
 window = pygame.display.set_mode([1018, 573])
-
 c = pygame.time.Clock()
-
- 
 
 background = tsk.Sprite("Frame.jpg", 0, 0)
 
