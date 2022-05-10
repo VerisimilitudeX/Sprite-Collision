@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-TECHNIQUE 2: Onscreen Button
-PRACTICE 1
-"""
 import pygame
 import tsk
 pygame.init()
@@ -35,6 +30,3 @@ while drawing:
 
     pygame.display.flip()
     c.tick(30)
-
-
-# Turn in your Coding Exercise.
