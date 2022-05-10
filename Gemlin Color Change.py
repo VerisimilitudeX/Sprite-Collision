@@ -1,17 +1,3 @@
-"""
-code2
-
-Description:
-"""
-
-"""
-
-LESSON: 5.3 - Sprite Collision
-
-EXERCISE: The Joy Of Energy
-
-"""
-
 import tsk
 import pygame
 import random
