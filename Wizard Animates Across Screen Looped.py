@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-WARMUP 1
-"""
-
 import pygame
 import tsk
 import random
@@ -23,7 +18,6 @@ while drawing:
         if event.type == pygame.QUIT:
             drawing = False
 
-    # Move the wizard
     wizard.center_x += 0.2 * c.get_time()
     if wizard.center_x > 1018:
         wizard.center_x = 0
