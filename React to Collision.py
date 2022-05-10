@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-TECHNIQUE 1: React to Collision
-DEMO 1
-"""
 import pygame
 import tsk
 pygame.init()
