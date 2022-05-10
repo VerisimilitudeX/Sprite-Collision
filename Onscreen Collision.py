@@ -1,8 +1,3 @@
-"""
-LESSON: 5.3 - Sprite Collision
-TECHNIQUE 2: Onscreen Button
-DEMO 1
-"""
 import pygame
 import tsk
 import random
